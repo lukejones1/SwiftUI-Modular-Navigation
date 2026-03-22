@@ -1,6 +1,7 @@
-# CoordinatorDemo
+SwiftUI-Modular-Navigation
 
-A demo project accompanying my blog posts on SwiftUI navigation in a modular app.
+A demo project accompanying my [blog post](https://lukejones1.github.io/posts/swiftui-navigation-modular-routers/) on SwiftUI navigation in a modular app. 
+
 
 ## Architecture
 
