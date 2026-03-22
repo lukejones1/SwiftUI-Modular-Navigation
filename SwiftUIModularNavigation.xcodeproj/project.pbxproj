@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EB037842F704D9D004316CC /* DeepLinkParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB037832F704D9D004316CC /* DeepLinkParser.swift */; };
+		5EB037862F704DAC004316CC /* AppDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB037852F704DAC004316CC /* AppDestination.swift */; };
+		A1000001 /* CoordinatorDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001 /* CoordinatorDemoApp.swift */; };
+		A1000002 /* AppRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000002 /* AppRootView.swift */; };
+		A1000003 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000003 /* AppCoordinator.swift */; };
+		A1000004 /* AppComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000004 /* AppComposition.swift */; };
+		A1000010 /* Navigation in Frameworks */ = {isa = PBXBuildFile; productRef = A3000010 /* Navigation */; };
+		A1000011 /* Home in Frameworks */ = {isa = PBXBuildFile; productRef = A3000011 /* Home */; };
+		A1000012 /* Profile in Frameworks */ = {isa = PBXBuildFile; productRef = A3000012 /* Profile */; };
+		A1000013 /* Account in Frameworks */ = {isa = PBXBuildFile; productRef = A3000013 /* Account */; };
+		A1000014 /* Onboarding in Frameworks */ = {isa = PBXBuildFile; productRef = A3000014 /* Onboarding */; };
+		A1000015 /* UserSettings in Frameworks */ = {isa = PBXBuildFile; productRef = A3000015 /* UserSettings */; };
+		A1000020 /* AppCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000020 /* AppCoordinatorTests.swift */; };
+		A1000021 /* Navigation in Frameworks */ = {isa = PBXBuildFile; productRef = A3000020 /* Navigation */; };
+		A1000022 /* Home in Frameworks */ = {isa = PBXBuildFile; productRef = A3000021 /* Home */; };
+		A1000023 /* Profile in Frameworks */ = {isa = PBXBuildFile; productRef = A3000022 /* Profile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6000001;
+			remoteInfo = CoordinatorDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EB037832F704D9D004316CC /* DeepLinkParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkParser.swift; sourceTree = "<group>"; };
+		5EB037852F704DAC004316CC /* AppDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDestination.swift; sourceTree = "<group>"; };
+		A2000001 /* CoordinatorDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorDemoApp.swift; sourceTree = "<group>"; };
+		A2000002 /* AppRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRootView.swift; sourceTree = "<group>"; };
+		A2000003 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		A2000004 /* AppComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppComposition.swift; sourceTree = "<group>"; };
+		A2000020 /* AppCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorTests.swift; sourceTree = "<group>"; };
+		A7000001 /* SwiftUIModularNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIModularNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7000002 /* SwiftUIModularNavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIModularNavigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8000001 /* Navigation */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Navigation; path = Packages/Navigation; sourceTree = "<group>"; };
+		A8000002 /* Home */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Home; path = Packages/Home; sourceTree = "<group>"; };
+		A8000003 /* Profile */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Profile; path = Packages/Profile; sourceTree = "<group>"; };
+		A8000004 /* Account */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Account; path = Packages/Account; sourceTree = "<group>"; };
+		A8000005 /* Onboarding */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Onboarding; path = Packages/Onboarding; sourceTree = "<group>"; };
+		A8000006 /* UserSettings */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = UserSettings; path = Packages/UserSettings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000010 /* Navigation in Frameworks */,
+				A1000011 /* Home in Frameworks */,
+				A1000012 /* Profile in Frameworks */,
+				A1000013 /* Account in Frameworks */,
+				A1000014 /* Onboarding in Frameworks */,
+				A1000015 /* UserSettings in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000021 /* Navigation in Frameworks */,
+				A1000022 /* Home in Frameworks */,
+				A1000023 /* Profile in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA000001 = {
+			isa = PBXGroup;
+			children = (
+				AA000002 /* Packages */,
+				AA000003 /* SwiftUIModularNavigation */,
+				AA000004 /* SwiftUIModularNavigationTests */,
+				AA000005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA000002 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				A8000001 /* Navigation */,
+				A8000002 /* Home */,
+				A8000003 /* Profile */,
+				A8000004 /* Account */,
+				A8000005 /* Onboarding */,
+				A8000006 /* UserSettings */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		AA000003 /* SwiftUIModularNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				AA000006 /* App */,
+			);
+			path = SwiftUIModularNavigation;
+			sourceTree = "<group>";
+		};
+		AA000004 /* SwiftUIModularNavigationTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2000020 /* AppCoordinatorTests.swift */,
+			);
+			path = SwiftUIModularNavigationTests;
+			sourceTree = "<group>";
+		};
+		AA000005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7000001 /* SwiftUIModularNavigation.app */,
+				A7000002 /* SwiftUIModularNavigationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA000006 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5EB037852F704DAC004316CC /* AppDestination.swift */,
+				A2000001 /* CoordinatorDemoApp.swift */,
+				A2000002 /* AppRootView.swift */,
+				A2000003 /* AppCoordinator.swift */,
+				A2000004 /* AppComposition.swift */,
+				5EB037832F704D9D004316CC /* DeepLinkParser.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6000001 /* SwiftUIModularNavigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB000001 /* Build configuration list for PBXNativeTarget "SwiftUIModularNavigation" */;
+			buildPhases = (
+				AC000001 /* Sources */,
+				A9000001 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUIModularNavigation;
+			packageProductDependencies = (
+				A3000010 /* Navigation */,
+				A3000011 /* Home */,
+				A3000012 /* Profile */,
+				A3000013 /* Account */,
+				A3000014 /* Onboarding */,
+				A3000015 /* UserSettings */,
+			);
+			productName = CoordinatorDemo;
+			productReference = A7000001 /* SwiftUIModularNavigation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6000002 /* SwiftUIModularNavigationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB000002 /* Build configuration list for PBXNativeTarget "SwiftUIModularNavigationTests" */;
+			buildPhases = (
+				AC000002 /* Sources */,
+				A9000002 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD000001 /* PBXTargetDependency */,
+			);
+			name = SwiftUIModularNavigationTests;
+			packageProductDependencies = (
+				A3000020 /* Navigation */,
+				A3000021 /* Home */,
+				A3000022 /* Profile */,
+			);
+			productName = CoordinatorDemoTests;
+			productReference = A7000002 /* SwiftUIModularNavigationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A6000001 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					A6000002 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A6000001;
+					};
+				};
+			};
+			buildConfigurationList = AB000003 /* Build configuration list for PBXProject "SwiftUIModularNavigation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA000001;
+			productRefGroup = AA000005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6000001 /* SwiftUIModularNavigation */,
+				A6000002 /* SwiftUIModularNavigationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000001 /* CoordinatorDemoApp.swift in Sources */,
+				5EB037842F704D9D004316CC /* DeepLinkParser.swift in Sources */,
+				A1000002 /* AppRootView.swift in Sources */,
+				A1000003 /* AppCoordinator.swift in Sources */,
+				5EB037862F704DAC004316CC /* AppDestination.swift in Sources */,
+				A1000004 /* AppComposition.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000020 /* AppCoordinatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6000001 /* SwiftUIModularNavigation */;
+			targetProxy = A4000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AE000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SwiftUIModularNavigation;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukejones.CoordinatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SwiftUIModularNavigation;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukejones.CoordinatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3M7Y78J6AS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukejones.CoordinatorDemoTests;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.lukejones.SwiftUIModularNavigationTests;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.lukejones.SwiftUIModularNavigationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIModularNavigation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUIModularNavigation";
+			};
+			name = Debug;
+		};
+		AE000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3M7Y78J6AS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukejones.CoordinatorDemoTests;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.lukejones.SwiftUIModularNavigationTests;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.lukejones.SwiftUIModularNavigationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIModularNavigation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUIModularNavigation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB000001 /* Build configuration list for PBXNativeTarget "SwiftUIModularNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE000003 /* Debug */,
+				AE000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB000002 /* Build configuration list for PBXNativeTarget "SwiftUIModularNavigationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE000005 /* Debug */,
+				AE000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB000003 /* Build configuration list for PBXProject "SwiftUIModularNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE000001 /* Debug */,
+				AE000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A3000010 /* Navigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Navigation;
+		};
+		A3000011 /* Home */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Home;
+		};
+		A3000012 /* Profile */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Profile;
+		};
+		A3000013 /* Account */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Account;
+		};
+		A3000014 /* Onboarding */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Onboarding;
+		};
+		A3000015 /* UserSettings */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UserSettings;
+		};
+		A3000020 /* Navigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Navigation;
+		};
+		A3000021 /* Home */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Home;
+		};
+		A3000022 /* Profile */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Profile;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A5000001 /* Project object */;
+}
