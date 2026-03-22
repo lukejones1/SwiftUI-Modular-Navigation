@@ -29,15 +29,15 @@ A demo project accompanying my [blog post](https://lukejones1.github.io/posts/sw
 
 ### Deep Link Scheme
 
-`coordinatordemo://`
+`swiftuimodularnavigation://`
 
 | URL | Behaviour |
 |-----|-----------|
-| `coordinatordemo:///home` | Switch to Home tab |
-| `coordinatordemo:///home/item/{UUID}` | Switch to Home tab, push detail |
-| `coordinatordemo:///profile` | Switch to Profile tab |
-| `coordinatordemo:///account` | Switch to Account tab |
-| `coordinatordemo:///settings` | Present Settings sheet |
+| `swiftuimodularnavigation:///home` | Switch to Home tab |
+| `swiftuimodularnavigation:///home/item/{UUID}` | Switch to Home tab, push detail |
+| `swiftuimodularnavigation:///profile` | Switch to Profile tab |
+| `swiftuimodularnavigation:///account` | Switch to Account tab |
+| `swiftuimodularnavigation:///settings` | Present Settings sheet |
 
 ### Testing
 
